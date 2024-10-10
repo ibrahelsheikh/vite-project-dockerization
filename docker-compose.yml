@@ -1,0 +1,14 @@
+# run docker compose
+
+version: '3.7'
+
+services:
+  web:
+    container_name: vitewebcontianer
+
+    build: .
+
+    ports:
+      - "3000:3000"
+    
+  
